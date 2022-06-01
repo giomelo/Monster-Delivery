@@ -1,0 +1,1012 @@
+fileFormatVersion: 2
+guid: 749034df6966bf245a6c3c5091de95b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3562537170512666972
+    second: bravo1
+  - first:
+      213: -6119984289491882364
+    second: barra1
+  - first:
+      213: -4000218964438785511
+    second: x_preto
+  - first:
+      213: 7068735352040150563
+    second: x_vermelho
+  - first:
+      213: -5030748028292599000
+    second: feliz1
+  - first:
+      213: 3704818808314251716
+    second: ATLAS HUD 1_5
+  - first:
+      213: 1275370790898714475
+    second: ATLAS HUD 1_6
+  - first:
+      213: -6170175824523339681
+    second: pezin1
+  - first:
+      213: -1633169835822211117
+    second: ATLAS HUD 1_8
+  - first:
+      213: -5484593074756420537
+    second: ATLAS HUD 1_9
+  - first:
+      213: -3623744168294563902
+    second: ATLAS HUD 1_10
+  - first:
+      213: 2633293591739147727
+    second: moeda
+  - first:
+      213: -1111941028901367883
+    second: poderNix
+  - first:
+      213: -59869422990594689
+    second: ATLAS HUD 1_13
+  - first:
+      213: -5551049186316026789
+    second: ATLAS HUD 1_14
+  - first:
+      213: -2141573730846345076
+    second: encomendavermei
+  - first:
+      213: 8385071697922468129
+    second: ATLAS HUD 1_16
+  - first:
+      213: 5184363264833187863
+    second: ATLAS HUD 1_17
+  - first:
+      213: -2935601003972866945
+    second: ATLAS HUD 1_18
+  - first:
+      213: 6292007710067467096
+    second: ATLAS HUD 1_19
+  - first:
+      213: -6217641906087304331
+    second: poderBrad
+  - first:
+      213: -1408130211851839009
+    second: ATLAS HUD 1_21
+  - first:
+      213: -867952086161947450
+    second: ATLAS HUD 1_22
+  - first:
+      213: -7505806179817005239
+    second: ATLAS HUD 1_23
+  - first:
+      213: -5291776915471025433
+    second: encomendaamar
+  - first:
+      213: -394410676366880942
+    second: ATLAS HUD 1_25
+  - first:
+      213: 4240283503588981481
+    second: ATLAS HUD 1_26
+  - first:
+      213: -4664874267297219616
+    second: ATLAS HUD 1_27
+  - first:
+      213: -6011622100320749817
+    second: ATLAS HUD 1_28
+  - first:
+      213: -5489378869631358522
+    second: ATLAS HUD 1_29
+  - first:
+      213: 5154476517777450268
+    second: ATLAS HUD 1_30
+  - first:
+      213: -3590950148619384085
+    second: ATLAS HUD 1_31
+  - first:
+      213: 1016473810513055203
+    second: encomendaazul
+  - first:
+      213: 770997982164713114
+    second: ATLAS HUD 1_33
+  - first:
+      213: 8681697616885673130
+    second: "c\xEDrculo"
+  - first:
+      213: -5391540651443471878
+    second: ATLAS HUD 1_35
+  - first:
+      213: 2506489397480056940
+    second: ATLAS HUD 1_36
+  - first:
+      213: -3040994245063948728
+    second: ATLAS HUD 1_37
+  - first:
+      213: -5504747390620708073
+    second: ATLAS HUD 1_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bravo1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1463
+        width: 218
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5168837eaca07130800000000000000
+      internalID: 3562537170512666972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barra1
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1505
+        width: 1140
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e6dd9b6b2711ba0800000000000000
+      internalID: -6119984289491882364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_preto
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1295
+        width: 136
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91268d0cb0e5c78c0800000000000000
+      internalID: -4000218964438785511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x_vermelho
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1295
+        width: 136
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3265995d951391260800000000000000
+      internalID: 7068735352040150563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feliz1
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 1463
+        width: 219
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8237f1382513f2ab0800000000000000
+      internalID: -5030748028292599000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pezin1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1201
+        width: 377
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58559157c12f5aa0800000000000000
+      internalID: -6170175824523339681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_8
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1240
+        width: 151
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df1fedefa0d559e0800000000000000
+      internalID: -1633169835822211117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_9
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1211
+        width: 157
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c739938afc2e3b0800000000000000
+      internalID: -5484593074756420537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_10
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1214
+        width: 128
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfb8ebd0efd5bdc0800000000000000
+      internalID: -3623744168294563902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moeda
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 898
+        width: 153
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5ace4e1965b8420800000000000000
+      internalID: 2633293591739147727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poderNix
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 852
+        width: 340
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfc62986879190f0800000000000000
+      internalID: -1111941028901367883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_13
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 963
+        width: 188
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7decb5b31d4b2ff0800000000000000
+      internalID: -59869422990594689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_14
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 950
+        width: 183
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c79eefc26b6f2b0800000000000000
+      internalID: -5551049186316026789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: encomendavermei
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 662
+        width: 378
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c887890d90a9742e0800000000000000
+      internalID: -2141573730846345076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_16
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 794
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129a9d28842cd5470800000000000000
+      internalID: 8385071697922468129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_17
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 667
+        width: 188
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71077f2ebee82f740800000000000000
+      internalID: 5184363264833187863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_18
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 679
+        width: 182
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ccaebb076a247d0800000000000000
+      internalID: -2935601003972866945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_19
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 751
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85327920da3b15750800000000000000
+      internalID: 6292007710067467096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poderBrad
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 428
+        width: 340
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573651ff0af76b9a0800000000000000
+      internalID: -6217641906087304331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_21
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 640
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9531d6801557ce0800000000000000
+      internalID: -1408130211851839009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_22
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 695
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4024e1d2a64f3f0800000000000000
+      internalID: -867952086161947450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_23
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 672
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f53130c0506d790800000000000000
+      internalID: -7505806179817005239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: encomendaamar
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 401
+        width: 407
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eabcb2bee4df86b0800000000000000
+      internalID: -5291776915471025433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_25
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 490
+        width: 142
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fc78b5495c68af0800000000000000
+      internalID: -394410676366880942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_26
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 603
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eabe5a616388da30800000000000000
+      internalID: 4240283503588981481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_27
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 434
+        width: 125
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb73e7c199034fb0800000000000000
+      internalID: -4664874267297219616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_28
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 436
+        width: 150
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7077e7afc8d629ca0800000000000000
+      internalID: -6011622100320749817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_29
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 473
+        width: 76
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c96616800fc1d3b0800000000000000
+      internalID: -5489378869631358522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_30
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 436
+        width: 81
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15a7355511688740800000000000000
+      internalID: 5154476517777450268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_31
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 403
+        width: 103
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beac7619dd16a2ec0800000000000000
+      internalID: -3590950148619384085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: encomendaazul
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 151
+        width: 376
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed4e1f8b8d3b1e00800000000000000
+      internalID: 1016473810513055203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_33
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 316
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e7871749223ba00800000000000000
+      internalID: 770997982164713114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "c\xEDrculo"
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 18
+        width: 376
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac63d52cf59b7870800000000000000
+      internalID: 8681697616885673130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_35
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 205
+        width: 208
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af932a6d7566d25b0800000000000000
+      internalID: -5391540651443471878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_36
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 199
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68e41ab3d6d8c220800000000000000
+      internalID: 2506489397480056940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_37
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 232
+        width: 132
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846c4f298d73cc5d0800000000000000
+      internalID: -3040994245063948728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATLAS HUD 1_38
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 90
+        width: 50
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7135bc3e9653b93b0800000000000000
+      internalID: -5504747390620708073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
