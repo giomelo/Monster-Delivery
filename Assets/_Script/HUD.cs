@@ -36,7 +36,8 @@ public class HUD : MonoBehaviour
     private void Awake() {
          hUD = this;
     }
-    void Start()
+
+    private void Start()
     {
         hUD = this;
        pontos.text = Player.jogador.Recompensa.ToString();
@@ -120,7 +121,9 @@ public class HUD : MonoBehaviour
                 break;
         }
     }
-    public void Pause(){
+    public void Pause()
+    {
+        Debug.Log("Pause");
         Time.timeScale = 0f;
         Controlador.controlador.pause = true;
         TelaPause.SetActive(true);

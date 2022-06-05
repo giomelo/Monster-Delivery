@@ -205,7 +205,6 @@ public class Player : MonoBehaviour
         }
     }
     void Movimenta_X(){
-        
         //CONTROLAR OS CAMINHOS
 #if UNITY_EDITOR
         
@@ -228,7 +227,9 @@ public class Player : MonoBehaviour
    #endif
         
         //MOVER
+        
         Vector3 targetPosition = personagem[personagemEscolhido].transform.position.z * personagem[personagemEscolhido].transform.forward + personagem[personagemEscolhido].transform.position.y * personagem[personagemEscolhido].transform.up;
+        Vector3 finalPos;
         switch (desiredLane)
         {
             case 0:
@@ -298,30 +299,8 @@ public class Player : MonoBehaviour
     private void Atirar(){
        
          //int i = 0;
-         if(!usandoPoder)       
-             /* if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began){    
-                      touches[i] = Input.GetTouch(0);
-                      contadorTouches++;
-                      i++;
-                      Debug.Log("tocou");
-                }
-            if(touches[0].phase == TouchPhase.Ended && touches[1].phase == TouchPhase.Ended){
-                touches[0].deltaTime = tempo1;
-                touches[1].deltaTime = tempo2;
-                Debug.Log(tempo1 + tempo2);
-            if(tempo2 - tempo1 <= timeDoubleTap){
-                SwipeManager.doubletap = true;
-                Debug.Log("doubletap");
-                 escolhaEncomenda++;
-             if(escolhaEncomenda > encomendaPrefab.Length -2){
-                 escolhaEncomenda = 0;
-             }
-              HUD.hUD.MudarSeta(escolhaEncomenda);
- 
-             }
-             
-            }*/
-            
+         if (!usandoPoder)
+         {
              if(Input.GetKeyDown(KeyCode.Z) ||character.isGrounded &&  SwipeManager.swipeDown){
                  //if(!trocouUmaVez){
                  trocouUmaVez = true;
@@ -332,17 +311,8 @@ public class Player : MonoBehaviour
                  HUD.hUD.MudarSeta(escolhaEncomenda);
                  // }
              }
-         /*for (int i = 0; i < Input.touchCount; i++)
-                {
-             if (Input.GetTouch(i).phase == TouchPhase.Began){
-                 if(Input.GetTouch(i).position.x > Screen.height/2){
-                     SwipeManager.tapRight = true;
-                 }else{
-                     SwipeManager.tapLeft = true;
-                 }
-             }            	
-         }*/
-        
+         }
+
 #if UNITY_EDITOR
          if(Input.GetMouseButtonDown(1)){
              if(ChecarEncomendas(escolhaEncomenda)){

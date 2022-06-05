@@ -2,16 +2,17 @@ using UnityEngine;
 
 namespace _Script
 {
-    public class AudioController : MonoBehaviour
+    public class AudioController : MonoSingleton<AudioController>
     {
-        public static AudioController audioController;
         [SerializeField] private AudioClip encomendaCerta, encomenda, encomendaErrada;
-        // Start is called before the first frame update
-        private void Awake()
-        {
-            audioController = this;
-        }
 
+        [SerializeField] private AudioSource music;
+        // Start is called before the first frame update
+
+        public void Music()
+        {
+            music.Play();
+        }
         public void AcertoEncomenda()
         {
             AudioSource.PlayClipAtPoint(encomendaCerta, Player.jogador.personagem[Player.jogador.personagemEscolhido].transform.position, 300);

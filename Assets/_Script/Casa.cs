@@ -37,7 +37,7 @@ public class Casa : MonoBehaviour
         Player.jogador.Recompensa += valorRecompensa;
         Controlador.controlador.Acrescentar(valorAcrescentar);
         Controlador.controlador.encomendasEntregue++;
-        AudioController.audioController.AcertoEncomenda();
+        AudioController.Instance.AcertoEncomenda();
     }
 
     private void Erros()
@@ -47,11 +47,11 @@ public class Casa : MonoBehaviour
         joinhaBaixo.SetActive(true);
         Controlador.controlador.Erros();
         Controlador.controlador.Diminuir(valorDiminuir);
-        AudioController.audioController.ErroEncomenda();
+        AudioController.Instance.ErroEncomenda();
     }
     private void OnTriggerEnter(Collider other) {
         if(other.CompareTag("Encomenda"))
-            AudioController.audioController.Encomenda();
+            AudioController.Instance.Encomenda();
         Instantiate(particulas, this.transform.position + new Vector3(0, 5,0), particulas.transform.rotation);
         if (marcouPonto || errou) return;
         

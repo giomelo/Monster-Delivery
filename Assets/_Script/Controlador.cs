@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using _Script;
 using UnityEngine;
 
 public class Controlador : MonoBehaviour
@@ -30,7 +31,8 @@ public class Controlador : MonoBehaviour
     private void Awake() {
         cameraPostion = cameraPlayer.transform.position;
     }
-    void Start(){
+
+    private void Start(){
         controlador = this;
         Time.timeScale = 0f;
         currentValue = valorBarra;
@@ -126,6 +128,7 @@ public class Controlador : MonoBehaviour
         }
         telaGameOverOuch.SetActive(false);
         telaGameOverDemitido.SetActive(false);
+        AudioController.Instance.Music();
         StartCoroutine(Pause());
     }
     public void EscolherPersonagem(){

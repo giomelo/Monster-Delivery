@@ -1193,7 +1193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb1cbe0fab2110346b56e05ff676fff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TapCount: 0
   MaxDubbleTapTime: 1
   valorAcelerator: 0
   deviceOrientationInicial: 0
@@ -5910,7 +5909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &664815201
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6409,6 +6408,7 @@ MonoBehaviour:
   encomendaCerta: {fileID: 8300000, guid: 91a5155d93d2768428170999278616ce, type: 3}
   encomenda: {fileID: 8300000, guid: 35b8dfe86f0052e4383acf9fe8cbccf2, type: 3}
   encomendaErrada: {fileID: 8300000, guid: 1b983223762744b4289f7a8db065b5c4, type: 3}
+  music: {fileID: 1465202326}
 --- !u!4 &733769940
 Transform:
   m_ObjectHideFlags: 0
