@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using _Script;
+using _Script.Entities;
 using UnityEngine;
 
 public class Controlador : MonoBehaviour
@@ -73,13 +74,13 @@ public class Controlador : MonoBehaviour
             //SalvarPontos.salvarPontos.SalvarMoedas();
             SalvarPontos.salvarPontos.SalvarEncomendas();
             SalvarPontos.salvarPontos.SalvarDistanciaTotal();
-            SalvarPontos.salvarPontos.SalvarPontosCasasMax(Player.jogador.Recompensa);
-            SalvarPontos.salvarPontos.SalvarMoedasTotal(Player.jogador.Moedas);
+            SalvarPontos.salvarPontos.SalvarPontosCasasMax(Player.Instance.Recompensa);
+            SalvarPontos.salvarPontos.SalvarMoedasTotal(Player.Instance.Moedas);
             pause = true;
             HUD.hUD.distanciaMaxGameOver.text = PlayerPrefs.GetInt("GameScene" + "score").ToString();
             HUD.hUD.distanciaDemitido.text = SalvarPontos.salvarPontos.PontuacaoAtual.ToString();
             HUD.hUD.pontosDemitido.text = HUD.hUD.pontos.text.ToString();
-            HUD.hUD.moedasDemitido.text = Player.jogador.Moedas.ToString();
+            HUD.hUD.moedasDemitido.text = Player.Instance.Moedas.ToString();
             gameOverGoblin.Play();
             PlayerPrefs.Save();
             
@@ -93,12 +94,12 @@ public class Controlador : MonoBehaviour
             //SalvarPontos.salvarPontos.SalvarMoedas();
             SalvarPontos.salvarPontos.SalvarEncomendas();
             SalvarPontos.salvarPontos.SalvarDistanciaTotal();
-            SalvarPontos.salvarPontos.SalvarPontosCasasMax(Player.jogador.Recompensa);
-            SalvarPontos.salvarPontos.SalvarMoedasTotal(Player.jogador.Moedas);
+            SalvarPontos.salvarPontos.SalvarPontosCasasMax(Player.Instance.Recompensa);
+            SalvarPontos.salvarPontos.SalvarMoedasTotal(Player.Instance.Moedas);
             HUD.hUD.distanciaMaxGameOverOuch.text = PlayerPrefs.GetInt("GameScene" + "score").ToString();
             HUD.hUD.distanciaOuch.text = SalvarPontos.salvarPontos.PontuacaoAtual.ToString();
             HUD.hUD.pontosOuch.text = HUD.hUD.pontos.text.ToString();
-            HUD.hUD.moedasOuch.text = Player.jogador.Moedas.ToString();
+            HUD.hUD.moedasOuch.text = Player.Instance.Moedas.ToString();
             pause = true;
             gameOverMonstro.Play();
             PlayerPrefs.Save();
@@ -114,7 +115,7 @@ public class Controlador : MonoBehaviour
             Destroy(modulos.gameObject);
         }
         currentValue = valorBarra;
-        Player.jogador.personagem[Player.jogador.personagemEscolhido].transform.position = new Vector3(0, .4f, 0);
+        Player.Instance.personagem[Player.Instance.personagemEscolhido].transform.position = new Vector3(0, .4f, 0);
         cameraPlayer.position = cameraPostion;
         erros = 0;
         Pista.pista.GeraPista();

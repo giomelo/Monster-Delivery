@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using _Script.Entities;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,14 +24,14 @@ public class Menu : MonoBehaviour
     }
 
     public void EscolherNix(){
-       Player.jogador.protagonistas = Protagonistas.Nix;
+       Player.Instance.protagonistas = Protagonistas.Nix;
        fade.Play();
        BotaoBrad.SetActive(false);
        BotaoNix.SetActive(false);
        tutorial1.SetActive(false);
        tutorial2.SetActive(false);
        imagem.SetActive(false);
-       Player.jogador.EscolhaDePersonagem();
+       Player.Instance.EscolhaDePersonagem();
        cameraPlayer.Camera();
        HUD.hUD.HudPlayer();
        Time.timeScale = 1f;
@@ -38,14 +39,14 @@ public class Menu : MonoBehaviour
         audioGamePlay.Play();
     }
      public void EscolherBrad(){
-       Player.jogador.protagonistas = Protagonistas.Brad;
+       Player.Instance.protagonistas = Protagonistas.Brad;
        fade.Play();
        BotaoBrad.SetActive(false);
        BotaoNix.SetActive(false);
        tutorial1.SetActive(false);
        tutorial2.SetActive(false);
        imagem.SetActive(false);
-       Player.jogador.EscolhaDePersonagem();
+       Player.Instance.EscolhaDePersonagem();
         cameraPlayer.Camera();
         HUD.hUD.HudPlayer();
         Time.timeScale = 1f;

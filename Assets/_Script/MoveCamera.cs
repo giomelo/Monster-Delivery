@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using _Script.Entities;
 using UnityEngine;
 
 public class MoveCamera : MonoBehaviour
@@ -8,7 +9,7 @@ public class MoveCamera : MonoBehaviour
     private int alvoEscolhido;
     public void Camera()
     {
-        alvoEscolhido = (int) Player.jogador.protagonistas;
+        alvoEscolhido = (int) Player.Instance.protagonistas;
     }
 
     private void FixedUpdate()

@@ -1,22 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class ColorShader : MonoBehaviour
+namespace _Script
 {
-    [SerializeField]
-    private Material toonMaterial;
-    [SerializeField]
-    private Color shadowColor;
-
-    private static readonly int ShadowColor = Shader.PropertyToID("_ShadowColor");
-
-    // Start is called before the first frame update
-    private void Start()
+    public class ColorShader : MonoBehaviour
     {
-        toonMaterial= GetComponent<Renderer>().material;
-        toonMaterial.SetColor("_ShadowColor", shadowColor);
-        this.GetComponent<Renderer>().material = toonMaterial;
+        private Material toonMaterial;
+        [SerializeField]
+        private Color shadowColor;
+
+        private static readonly int ShadowColor = Shader.PropertyToID("Color_1BAB2A31");
+
+        // Start is called before the first frame update
+        private void Start()
+        {
+            toonMaterial = GetComponent<Renderer>().material;
+            Material newMaterial = toonMaterial;
+            newMaterial.SetColor(ShadowColor, shadowColor);
+            GetComponent<Renderer>().material = newMaterial;
+        }
     }
-    
 }

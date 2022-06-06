@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using _Script.Entities;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -40,69 +41,69 @@ public class HUD : MonoBehaviour
     private void Start()
     {
         hUD = this;
-       pontos.text = Player.jogador.Recompensa.ToString();
-       moedas.text = Player.jogador.Moedas.ToString();
+       pontos.text = Player.Instance.Recompensa.ToString();
+       moedas.text = Player.Instance.Moedas.ToString();
        distancia.text = SalvarPontos.salvarPontos.PontuacaoAtual.ToString(); 
-       vermelho.text = Player.jogador.Vermelho.ToString();      
-       amarelo.text = Player.jogador.Amarelo.ToString();
-       azul.text = Player.jogador.Azul.ToString();
+       vermelho.text = Player.Instance.Vermelho.ToString();      
+       amarelo.text = Player.Instance.Amarelo.ToString();
+       azul.text = Player.Instance.Azul.ToString();
        vermelhoCor = HUD.hUD.vermelho.color;
        azulCor = HUD.hUD.azul.color;
        amareloCor = HUD.hUD.amarelo.color;
     
     }
     public void AtualizaPontos(){
-         pontos.text = Player.jogador.Recompensa.ToString();
+         pontos.text = Player.Instance.Recompensa.ToString();
     }
     public void AtualizarMoedas(){
-        moedas.text = Player.jogador.Moedas.ToString();
+        moedas.text = Player.Instance.Moedas.ToString();
     }
     public void AtualizarDistancia(){
         distanciaDemitido.text = SalvarPontos.salvarPontos.PontuacaoAtual.ToString();
     }
     public void AtualizarVermelho(){
-         vermelho.text = Player.jogador.Vermelho.ToString();
+         vermelho.text = Player.Instance.Vermelho.ToString();
     }
     public void AtualizarAmarelo(){
-        amarelo.text = Player.jogador.Amarelo.ToString();
+        amarelo.text = Player.Instance.Amarelo.ToString();
     }
     public void AtualizarAzul(){
-        azul.text = Player.jogador.Azul.ToString();     
+        azul.text = Player.Instance.Azul.ToString();     
     }
     public void AtualizarDistanciaMax(){
         numDistMax.text = SalvarPontos.salvarPontos.pontuacaoMax.ToString();
     }
     public void AtualizarPecas(){
-        if(i < Player.jogador.pecasEscolhidas.Length)
+        if(i < Player.Instance.pecasEscolhidas.Length)
         {
-            Player.jogador.pecasEscolhidas[i].SetActive(false);
+            Player.Instance.pecasEscolhidas[i].SetActive(false);
             i++;
         }
-        if(i >= Player.jogador.pecasEscolhidas.Length){
+        if(i >= Player.Instance.pecasEscolhidas.Length){
             i = 0;
         }
     }
     public void VoltarPecas(){
-        for(int i = 0; i< Player.jogador.pecasEscolhidas.Length; i++){
-            Player.jogador.pecasEscolhidas[i].SetActive(true);
+        for(int i = 0; i< Player.Instance.pecasEscolhidas.Length; i++){
+            Player.Instance.pecasEscolhidas[i].SetActive(true);
         }
     }
     public void HudPlayer(){
-        if((int)Player.jogador.protagonistas == 0){
+        if((int)Player.Instance.protagonistas == 0){
             botaoPoderBrad.SetActive(true);
              botaPoderNix.SetActive(false);
-        }else if((int)Player.jogador.protagonistas == 1){
+        }else if((int)Player.Instance.protagonistas == 1){
             botaPoderNix.SetActive(true);
              botaoPoderBrad.SetActive(false);
         }
     }
     public void ReiniciarHud(){
-        Player.jogador.Vermelho = 5;
-        Player.jogador.Amarelo = 5;
-        Player.jogador.Azul = 5;
-        Player.jogador.Pontos = 0;
-        Player.jogador.Moedas = 0;
-        Player.jogador.Recompensa = 0;
+        Player.Instance.Vermelho = 5;
+        Player.Instance.Amarelo = 5;
+        Player.Instance.Azul = 5;
+        Player.Instance.Pontos = 0;
+        Player.Instance.Moedas = 0;
+        Player.Instance.Recompensa = 0;
         SalvarPontos.salvarPontos.PontuacaoAtual = 0;
     }
     public void MudarSeta(int num){

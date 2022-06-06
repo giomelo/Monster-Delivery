@@ -124,7 +124,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_1BAB2A31: {r: 0.5647059, g: 0.11188923, b: 0.09803922, a: 0}
+    - Color_1BAB2A31: {r: 0.6037736, g: 0.5241974, b: 0.10537558, a: 0}
     - Color_4711ce1d0ef94cd39d4b3ad44c1ffa12: {r: 0, g: 0, b: 0, a: 0}
     - Color_F806612A: {r: 0.5377358, g: 0.40238798, b: 0.088777125, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}

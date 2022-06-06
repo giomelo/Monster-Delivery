@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 617258345396663500}
   - component: {fileID: 3500113884475566030}
   - component: {fileID: 7987204742685121900}
+  - component: {fileID: 4824219452244400783}
   m_Layer: 0
   m_Name: Casa verde  (zona 1)
   m_TagString: Untagged
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4824219452244400783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4949620189056819347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 793048c56278eac41bf1d37126095b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shadowColor: {r: 0.3019608, g: 0.42352942, b: 0.32156864, a: 0}

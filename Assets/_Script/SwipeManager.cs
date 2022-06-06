@@ -36,7 +36,7 @@ namespace _Script
             rodou = true;
             umavez = true;
         }else{
-            Player.jogador.trocouUmaVez = false;
+            Player.Instance.trocouUmaVez = false;
             rodou = false;
             umavez = false;
         }*/

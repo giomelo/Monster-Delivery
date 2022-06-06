@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
+using _Script.Entities;
 
 public class SalvarPontos : MonoBehaviour
 {
@@ -53,8 +54,8 @@ public class SalvarPontos : MonoBehaviour
        
     }
      public void Distância(){
-        pontuacaoAtual = (int)personagem[Player.jogador.personagemEscolhido].transform.position.z;
-        Player.jogador.Pontos = pontuacaoAtual;
+        pontuacaoAtual = (int)personagem[Player.Instance.personagemEscolhido].transform.position.z;
+        Player.Instance.Pontos = pontuacaoAtual;
     }
     public void ChecarPontuacao(){
         if(pontuacaoAtual > pontuacaoMax){
@@ -63,13 +64,13 @@ public class SalvarPontos : MonoBehaviour
         }
     }
     public void AtualizaPlayer(){
-        PlayerPrefs.SetInt( "tempoRelogio", Player.jogador.tempoRelogio);
-        PlayerPrefs.SetInt( "tempoIma", Player.jogador.tempoAtivarIma);
-        PlayerPrefs.SetInt("tempoNix", Player.jogador.tempoNix);
-        PlayerPrefs.SetInt("tempoBrad", Player.jogador.tempoBrad);
+        PlayerPrefs.SetInt( "tempoRelogio", Player.Instance.tempoRelogio);
+        PlayerPrefs.SetInt( "tempoIma", Player.Instance.tempoAtivarIma);
+        PlayerPrefs.SetInt("tempoNix", Player.Instance.tempoNix);
+        PlayerPrefs.SetInt("tempoBrad", Player.Instance.tempoBrad);
     }
     public void AtualizaMoedas(){
-        moedas = Player.jogador.Moedas;
+        moedas = Player.Instance.Moedas;
         Moedas += moedas;
         PlayerPrefs.SetInt(nomeDaCena + "moedas", Moedas);
     }
@@ -115,7 +116,7 @@ public class SalvarPontos : MonoBehaviour
 			writer = arquivo.CreateText(); 
 		} 
 
-        writer.WriteLine(Player.jogador.Moedas);
+        writer.WriteLine(Player.Instance.Moedas);
 		writer.Close(); 
 
 	} 

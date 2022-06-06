@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using _Script.Entities;
 using UnityEngine;
 
 public class Item : MonoBehaviour
@@ -37,22 +38,22 @@ public class Item : MonoBehaviour
         switch(nome){
             case "Moeda":
         if(other.gameObject.CompareTag("Player")){
-            Instantiate(coinParticle, Player.jogador.personagem[Player.jogador.personagemEscolhido].transform.position + new Vector3(0, 0.3f, 0), coinParticle.transform.rotation);
-            Player.jogador.Moedas += valor;
-            AudioSource.PlayClipAtPoint(moedinha, Player.jogador.personagem[Player.jogador.personagemEscolhido].transform.position);
+            Instantiate(coinParticle, Player.Instance.personagem[Player.Instance.personagemEscolhido].transform.position + new Vector3(0, 0.3f, 0), coinParticle.transform.rotation);
+            Player.Instance.Moedas += valor;
+            AudioSource.PlayClipAtPoint(moedinha, Player.Instance.personagem[Player.Instance.personagemEscolhido].transform.position);
             Destroy(this.gameObject);
 
         }
         break;
         case "Ima":
             if(other.gameObject.CompareTag("Player")){
-            Player.jogador.Ima();
+            Player.Instance.Ima();
             Destroy(this.gameObject);
          }
         break;
         case "Relogio":
             if(other.gameObject.CompareTag("Player")){
-            if(!Player.jogador.relogio){
+            if(!Player.Instance.relogio){
             ExecutarRelogio();
             }
             this.gameObject.SetActive(false);
@@ -63,22 +64,22 @@ public class Item : MonoBehaviour
 
     void ExecutarRelogio(){
             HUD.hUD.relogio.SetActive(true);
-            Player.jogador.relogio = true;
-            velocidade = Player.jogador.personagem[Player.jogador.personagemEscolhido].velocidade;
-            Player.jogador.personagem[Player.jogador.personagemEscolhido].velocidade = Player.jogador.personagem[Player.jogador.personagemEscolhido].velocidade/2;
+            Player.Instance.relogio = true;
+            velocidade = Player.Instance.personagem[Player.Instance.personagemEscolhido].velocidade;
+            Player.Instance.personagem[Player.Instance.personagemEscolhido].velocidade = Player.Instance.personagem[Player.Instance.personagemEscolhido].velocidade/2;
             //velocidadeEncomenda = velocidade;
             //encomenda.velocidade = encomenda.velocidade/2;
-            Invoke("VoltarVelocidade", Player.jogador.tempoRelogio);
+            Invoke("VoltarVelocidade", Player.Instance.tempoRelogio);
     }
     void VoltarVelocidade(){
-        Player.jogador.personagem[Player.jogador.personagemEscolhido].velocidade = velocidade;
-        Player.jogador.relogio = false;
+        Player.Instance.personagem[Player.Instance.personagemEscolhido].velocidade = velocidade;
+        Player.Instance.relogio = false;
         HUD.hUD.relogio.SetActive(false);
         //encomenda.velocidade = velocidadeEncomenda;
         Destroy(this.gameObject);
     }
     
     void ExecutarIma(){
-        this.transform.position = Vector3.Lerp(this.transform.position, Player.jogador.personagem[Player.jogador.personagemEscolhido].transform.position, Time.deltaTime * 7);
+        this.transform.position = Vector3.Lerp(this.transform.position, Player.Instance.personagem[Player.Instance.personagemEscolhido].transform.position, Time.deltaTime * 7);
     }
 }

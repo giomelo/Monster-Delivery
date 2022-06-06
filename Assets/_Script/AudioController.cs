@@ -1,3 +1,4 @@
+using _Script.Entities;
 using UnityEngine;
 
 namespace _Script
@@ -15,15 +16,15 @@ namespace _Script
         }
         public void AcertoEncomenda()
         {
-            AudioSource.PlayClipAtPoint(encomendaCerta, Player.jogador.personagem[Player.jogador.personagemEscolhido].transform.position, 300);
+            AudioSource.PlayClipAtPoint(encomendaCerta, Player.Instance.personagem[Player.Instance.personagemEscolhido].transform.position, 300);
         }
         public void ErroEncomenda()
         {
-            AudioSource.PlayClipAtPoint(encomendaErrada, Player.jogador.personagem[Player.jogador.personagemEscolhido].transform.position, 100);
+            AudioSource.PlayClipAtPoint(encomendaErrada, Player.Instance.personagem[Player.Instance.personagemEscolhido].transform.position, 100);
         }
         public void Encomenda()
         {
-            AudioSource.PlayClipAtPoint(encomenda, Player.jogador.personagem[Player.jogador.personagemEscolhido].transform.position, 100);
+            AudioSource.PlayClipAtPoint(encomenda, Player.Instance.personagem[Player.Instance.personagemEscolhido].transform.position, 100);
         }
     }
 }

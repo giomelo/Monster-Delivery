@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using _Script.Entities;
 using UnityEngine;
 
 public class Obstaculo : MonoBehaviour
@@ -12,13 +13,13 @@ public class Obstaculo : MonoBehaviour
     void OnTriggerEnter(Collider other) {
         if(other.transform.CompareTag("Player")){
             somBateu.Play();
-            Player.jogador.personagem[Player.jogador.personagemEscolhido].GetComponent<Animator>().SetTrigger("colidiu");
-            if(Player.jogador.escolhaEncomenda == 0 && Player.jogador.Vermelho > 0){
-                Player.jogador.Vermelho --;
-            }else if(Player.jogador.escolhaEncomenda == 1 && Player.jogador.Amarelo > 0){
-                Player.jogador.Amarelo --;
-            }else if(Player.jogador.escolhaEncomenda ==2 && Player.jogador.Azul > 0){
-                Player.jogador.Azul--;
+            Player.Instance.personagem[Player.Instance.personagemEscolhido].GetComponent<Animator>().SetTrigger("colidiu");
+            if(Player.Instance.escolhaEncomenda == 0 && Player.Instance.Vermelho > 0){
+                Player.Instance.Vermelho --;
+            }else if(Player.Instance.escolhaEncomenda == 1 && Player.Instance.Amarelo > 0){
+                Player.Instance.Amarelo --;
+            }else if(Player.Instance.escolhaEncomenda ==2 && Player.Instance.Azul > 0){
+                Player.Instance.Azul--;
             }
             Invoke("DesativarBox", 0.13f);
         }

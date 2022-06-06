@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using _Script;
+using _Script.Entities;
 using UnityEngine;
 
 public class Casa : MonoBehaviour
@@ -34,7 +35,7 @@ public class Casa : MonoBehaviour
         marcouPonto = true;
         cartinha.SetActive(false);
         joinhaCima.SetActive(true);
-        Player.jogador.Recompensa += valorRecompensa;
+        Player.Instance.Recompensa += valorRecompensa;
         Controlador.controlador.Acrescentar(valorAcrescentar);
         Controlador.controlador.encomendasEntregue++;
         AudioController.Instance.AcertoEncomenda();
@@ -100,8 +101,8 @@ public class Casa : MonoBehaviour
             
         }
     }
-    bool MarcouPonto(CorTipo enco1, CorTipo enco2){
-        switch(this.corTipo2)
+    private bool MarcouPonto(CorTipo enco1, CorTipo enco2){
+        switch(corTipo2)
         {
             case CorTipo2.Laranja:
                 return enco1 == CorTipo.Amarelo && enco2 == CorTipo.Vermelho || enco1 == CorTipo.Vermelho && enco2 ==CorTipo.Amarelo;
