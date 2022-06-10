@@ -19,8 +19,7 @@ namespace _Script.Entities
                 desiredLane = 2;
             }
         }
-
-    private void Esquerda()
+        private void Esquerda()
     {
         desiredLane--;
         if(desiredLane == -1){
