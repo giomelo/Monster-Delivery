@@ -11,6 +11,7 @@ public class WorldCurver : MonoBehaviour
     private void OnEnable()
     {
         m_CurveStrengthID = Shader.PropertyToID("_CurveStrength");
+        curveStrength /= 5;
     }
 
 	void Update()

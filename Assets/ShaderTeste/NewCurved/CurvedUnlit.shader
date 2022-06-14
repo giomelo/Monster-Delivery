@@ -3,6 +3,10 @@
 	Properties
 	{
 		_MainTex ("Texture", 2D) = "white" {}
+		_Brightness("Brightness", Range(0,1)) = 0.3
+        _Strength("Strength", Range(0,1)) = 0.5
+        _Color("Color", COLOR) = (1,1,1,1)
+        _Detail("Detail", Range(0,1)) = 0.3
 	}
 	SubShader
 	{
