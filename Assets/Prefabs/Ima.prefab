@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2edaaa8b36cd61942b9ec02067a11470, type: 2}
+  - {fileID: 2100000, guid: e433a230fe1f3d74994708b64c07d212, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,3 +110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valor: 0
+  ima: 0
+  coinParticle: {fileID: 0}
+  moedinha: {fileID: 0}
