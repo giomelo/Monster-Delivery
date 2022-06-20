@@ -11,11 +11,10 @@ public class WorldCurver : MonoBehaviour
     private void OnEnable()
     {
         m_CurveStrengthID = Shader.PropertyToID("_CurveStrength");
-        curveStrength /= 5;
     }
 
 	void Update()
 	{
-		Shader.SetGlobalFloat(m_CurveStrengthID, curveStrength);
+		Shader.SetGlobalFloat(m_CurveStrengthID, curveStrength/10);
 	}
 }

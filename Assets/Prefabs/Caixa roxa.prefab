@@ -35,6 +35,7 @@ Transform:
   - {fileID: 8795106522891367022}
   - {fileID: 4390705912800664538}
   - {fileID: 2847953131403476066}
+  - {fileID: 4813210064912024738}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -137,6 +138,64 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shadowColor: {r: 0.4745098, g: 0.09803922, b: 0.5647059, a: 0}
+--- !u!1 &6312938738693396642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813210064912024738}
+  - component: {fileID: 4882795636384278096}
+  - component: {fileID: 4935316203906404425}
+  m_Layer: 6
+  m_Name: ColisorCasa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813210064912024738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312938738693396642}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1831716946395685532}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4882795636384278096
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312938738693396642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.069669664
+  m_Center: {x: 0, y: -0.009686338, z: 2.2424536e-17}
+--- !u!114 &4935316203906404425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312938738693396642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7d8a69b5139a64083a02bff1c751b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paricle: {fileID: 3319094050350510513}
 --- !u!1 &6807410857699816965
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +370,10 @@ PrefabInstance:
     - target: {fileID: 2368028736551970045, guid: bb1b092f60967e8499f89b02af38547a, type: 3}
       propertyPath: m_Name
       value: Caixa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2368028736551970045, guid: bb1b092f60967e8499f89b02af38547a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8420984916282500898, guid: bb1b092f60967e8499f89b02af38547a, type: 3}
       propertyPath: m_RootOrder

@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public enum NivelPista : int
+﻿namespace _Script
 {
-    Facil,
-    Medio,
-    Dificil,
-    Outros
+    public enum NivelPista : int
+    {
+        Facil,
+        Medio,
+        Dificil,
+        Outros
+    }
 }

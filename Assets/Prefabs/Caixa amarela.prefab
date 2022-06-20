@@ -1,5 +1,63 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1067809829855600530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1153132282470254581}
+  - component: {fileID: 564541672751424729}
+  - component: {fileID: 72729024768158697}
+  m_Layer: 6
+  m_Name: ColisorCasa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1153132282470254581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067809829855600530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7588331451171873389}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &564541672751424729
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067809829855600530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.069669664
+  m_Center: {x: 0, y: -0.009686338, z: 2.2424536e-17}
+--- !u!114 &72729024768158697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067809829855600530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7d8a69b5139a64083a02bff1c751b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paricle: {fileID: 5313913285209530461}
 --- !u!1 &4682580396522836861
 GameObject:
   m_ObjectHideFlags: 0
@@ -29,7 +87,7 @@ Transform:
   m_LocalScale: {x: 0.0014859999, y: 0.0010766191, z: 0.001781095}
   m_Children: []
   m_Father: {fileID: 7588331451171873389}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 21.636, y: 90, z: 90}
 --- !u!212 &3100019315636665666
 SpriteRenderer:
@@ -111,7 +169,7 @@ Transform:
   m_LocalScale: {x: 0.0014859999, y: 0.0010766191, z: 0.001781095}
   m_Children: []
   m_Father: {fileID: 7588331451171873389}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 20.355, y: 91.221, z: -92.342}
 --- !u!212 &5239134602563750322
 SpriteRenderer:
@@ -197,6 +255,7 @@ Transform:
   m_LocalScale: {x: 210, y: 210, z: 210}
   m_Children:
   - {fileID: 2143567488930849666}
+  - {fileID: 1153132282470254581}
   - {fileID: 5423077299422548031}
   - {fileID: 8367002369263290111}
   m_Father: {fileID: 0}
@@ -311,6 +370,10 @@ PrefabInstance:
     - target: {fileID: 2368028736551970045, guid: bb1b092f60967e8499f89b02af38547a, type: 3}
       propertyPath: m_Name
       value: Caixa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2368028736551970045, guid: bb1b092f60967e8499f89b02af38547a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8420984916282500898, guid: bb1b092f60967e8499f89b02af38547a, type: 3}
       propertyPath: m_RootOrder
