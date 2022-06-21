@@ -25,9 +25,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138611958283005468}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.530421, y: 2.530421, z: 2.530421}
   m_Children: []
   m_Father: {fileID: 4373946868537143552}
   m_RootOrder: 3
@@ -252,6 +252,7 @@ MonoBehaviour:
   cartinha: {fileID: 8333218809105817801}
   joinhaCima: {fileID: 7623778910497115865}
   joinhaBaixo: {fileID: 3224631863035707317}
+  cartaCasa: {fileID: 8333218809105817801}
 --- !u!135 &1381910143745149647
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -112,6 +112,7 @@ MonoBehaviour:
   cartinha: {fileID: 2970392102531302420}
   joinhaCima: {fileID: 4173264458542592962}
   joinhaBaixo: {fileID: 4211885708711065115}
+  cartaCasa: {fileID: 2970392102531302420}
 --- !u!135 &7362316406013841087
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -327,9 +328,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6975996018697526270}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0096153, y: 1.0096152, z: 1.0096152}
+  m_LocalScale: {x: 2.530421, y: 2.530421, z: 2.530421}
   m_Children: []
   m_Father: {fileID: 8747190740175878770}
   m_RootOrder: 3

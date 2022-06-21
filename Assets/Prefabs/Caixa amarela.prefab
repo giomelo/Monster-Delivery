@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1067809829855600530}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.530421, y: 2.530421, z: 2.530421}
   m_Children: []
   m_Father: {fileID: 7588331451171873389}
   m_RootOrder: 1
@@ -334,6 +334,7 @@ MonoBehaviour:
   cartinha: {fileID: 5313913285209530461}
   joinhaCima: {fileID: 4682580396522836861}
   joinhaBaixo: {fileID: 5180045912457677220}
+  cartaCasa: {fileID: 5313913285209530461}
 --- !u!135 &636241594405450587
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -49,7 +49,7 @@ namespace _Script
         private void FixedUpdate()
         {
             if (!skyChanged) return;
-            RenderSettings.skybox.SetFloat("_Blend" , Mathf.Lerp(RenderSettings.skybox.GetFloat("_Blend"),1,Time.deltaTime));
+            RenderSettings.skybox.SetFloat("_Blend" , Mathf.Lerp(RenderSettings.skybox.GetFloat("_Blend"),1,Time.deltaTime / 2));
             if (RenderSettings.skybox.GetFloat("_Blend") == 1)
             {
                 skyChanged = false;
