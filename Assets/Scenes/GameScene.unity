@@ -6287,7 +6287,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0.000000016369, z: 5.24e-43, w: 8.3e-44}
+  m_BoundingSphereOverride: {x: 0, y: 1.878753e-16, z: 8.32e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -12730,15 +12730,15 @@ MonoBehaviour:
   listaModulos:
   - {fileID: -7476670019193577553, guid: 18051328fd793064cac9790301565003, type: 3}
   - {fileID: 3460400818203025020, guid: cf6d211b2630d9440ab33d3eea4d7e8a, type: 3}
-  - {fileID: 5537753290143972328, guid: 8ca1435f679c8a74baa84083736c3eca, type: 3}
-  - {fileID: 2164626170659913102, guid: d5f65666bb18cd34db021f8cf9c9af19, type: 3}
-  - {fileID: -1664103213014626541, guid: 0885a7364fb575b4db273c23f8f397c6, type: 3}
-  - {fileID: 8446129858543420839, guid: b9fc0dfa4a9bf8844b4db017b0cac0fa, type: 3}
-  - {fileID: 7595181426782481557, guid: 826566acae210ad47aa7701590f7d64b, type: 3}
-  - {fileID: 3524599039533675765, guid: d47479d22d845c4478ef0b195c927b1c, type: 3}
-  - {fileID: 4324512048450377530, guid: cdfbad45854eb4f4294032e962ee8703, type: 3}
-  - {fileID: 9119544462294652103, guid: f5e78ba67b7859f43803763140268918, type: 3}
-  - {fileID: 2048970276472243971, guid: e28546ac933e5694480ca88ef775610d, type: 3}
+  - {fileID: 3460400818203025020, guid: cf6d211b2630d9440ab33d3eea4d7e8a, type: 3}
+  - {fileID: 3460400818203025020, guid: cf6d211b2630d9440ab33d3eea4d7e8a, type: 3}
+  - {fileID: 3460400818203025020, guid: cf6d211b2630d9440ab33d3eea4d7e8a, type: 3}
+  - {fileID: 3460400818203025020, guid: cf6d211b2630d9440ab33d3eea4d7e8a, type: 3}
+  - {fileID: 3460400818203025020, guid: cf6d211b2630d9440ab33d3eea4d7e8a, type: 3}
+  - {fileID: 3460400818203025020, guid: cf6d211b2630d9440ab33d3eea4d7e8a, type: 3}
+  - {fileID: 3460400818203025020, guid: cf6d211b2630d9440ab33d3eea4d7e8a, type: 3}
+  - {fileID: 3460400818203025020, guid: cf6d211b2630d9440ab33d3eea4d7e8a, type: 3}
+  - {fileID: 3460400818203025020, guid: cf6d211b2630d9440ab33d3eea4d7e8a, type: 3}
   - {fileID: 3968823539879098944, guid: 5d79b17c459fdd14a9d31e63571e2eb0, type: 3}
   tamanhoPista: 7
   modulosFacil:

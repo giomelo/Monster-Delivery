@@ -93,7 +93,8 @@ namespace _Script
             }
             if(listaEscolhida.Count > contador)
             {
-                for(int i =0; i < contador; i++){
+                for(int i =0; i < contador; i++)
+                {
                     //pegar um dos modulos e spawnar dnvo
                     ModuloPista modulo = listaEscolhida[Random.Range(0, listaEscolhida.Count)];
                     if(modulo.nivelPista != NivelPista.Outros)
@@ -108,7 +109,10 @@ namespace _Script
                     modulo.gameObject.SetActive(true);
                     if(modulo.nivelPista != NivelPista.Outros)
                     {
-                        InstanciarItens.instanciarItens.Objetos(modulo.transform);
+                        foreach (InstanciarItens ins in modulo.objects)
+                        {
+                            ins.Objetos(modulo.transform);
+                        }
                     }
                     conector = modulo.conector;
                     //remover da lista o modulo

@@ -1,46 +1,47 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using _Script;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DestroiPista : MonoBehaviour
+namespace _Script
 {
-    [SerializeField]
-    private ModuloPista modulo;
-    
-    void OnTriggerEnter(Collider other)
+    public class DestroiPista : MonoBehaviour
     {
-        if(other.gameObject.CompareTag("Player")){
-            if((int)modulo.nivelPista != 3){
-                InstanciarItens.instanciarItens.LimparObjetos(modulo.gameObject);
+        [SerializeField]
+        private ModuloPista modulo;
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (!other.gameObject.CompareTag("Player")) return;
+            if((int)modulo.nivelPista != 3)
+            {
+                modulo.LimparObjetos();
             }
             Pista.pista.ContinuarPista();
             Invoke(nameof(Desativar), 10f);
         }
-    }
-    void Desativar(){
-        if(!modulo.CompareTag("Primeiro"))
+        void Desativar()
         {
-            switch ((int)modulo.nivelPista)
+            if(!modulo.CompareTag("Primeiro"))
             {
-                case 0:
-                    Pista.pista.modulosDestruidosFacil.Add(modulo);
-                    break;
-                case 1:
-                    Pista.pista.modulosDestruidosMedio.Add(modulo);
-                    break;
-                case 2:
-                    Pista.pista.modulosDestruidosDificil.Add(modulo);
-                    break;
-                case 3:
-                    Pista.pista.modulosDestruidosNeutros.Add(modulo);
-                    break;
-            }
+                switch ((int)modulo.nivelPista)
+                {
+                    case 0:
+                        Pista.pista.modulosDestruidosFacil.Add(modulo);
+                        break;
+                    case 1:
+                        Pista.pista.modulosDestruidosMedio.Add(modulo);
+                        break;
+                    case 2:
+                        Pista.pista.modulosDestruidosDificil.Add(modulo);
+                        break;
+                    case 3:
+                        Pista.pista.modulosDestruidosNeutros.Add(modulo);
+                        break;
+                }
 
-            modulo.gameObject.SetActive(false);
-        }else{
-            modulo.gameObject.SetActive(false);
+                modulo.gameObject.SetActive(false);
+            }else{
+                modulo.gameObject.SetActive(false);
+            }
         }
-    }
    
+    }
 }

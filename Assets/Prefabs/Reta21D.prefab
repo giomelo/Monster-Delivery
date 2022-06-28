@@ -300,7 +300,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7631318132543286909}
   - component: {fileID: 4071056095960868751}
-  - component: {fileID: 6502862887508649653}
   m_Layer: 0
   m_Name: Reta21D
   m_TagString: Untagged
@@ -368,55 +367,12 @@ MonoBehaviour:
   - {fileID: 8321052422120989266}
   - {fileID: 2904579989703162580}
   - {fileID: 8546648001889262214}
+  objects: []
   casas:
   - {fileID: 1829685935675966583}
   - {fileID: 201042788249510373}
   - {fileID: 5442648713302539666}
   - {fileID: 6590538113360399607}
---- !u!114 &6502862887508649653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7631318132543286906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5a6425bd6cff2241909422b4abe9b0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaPrefab: {fileID: 8257086075876773096, guid: 0bbc88a9602582f4fabe6147240229d4, type: 3}
-  relogioPrefab: {fileID: 5980810675238090225, guid: d2c30e58515088e409d74ff3a9def62f, type: 3}
-  imaPrefab: {fileID: 5144881724434804802, guid: f6697f3f9e842e544be1fa46f3c58f25, type: 3}
-  lootAmPrefab: {fileID: 1939019043772454557, guid: 2e2b4a7385b3c3741888d863c7bbd03c, type: 3}
-  lootVPrefab: {fileID: 7404721784981742547, guid: f928b063f9e7d0740ba49c3843d262fa, type: 3}
-  lootAzPrefab: {fileID: 6189804724802231068, guid: 2dd2847bcdba88140a9e3e429fa618c7, type: 3}
-  parent: {fileID: 7631318132543286909}
-  Reta1: 0
-  Reta2: 0
-  Reta3: 0
-  Reta4: 0
-  Reta5: 0
-  Reta6: 0
-  Reta7: 0
-  Reta8: 0
-  Reta9: 0
-  Reta10: 0
-  Reta11: 0
-  Reta12: 0
-  Reta13: 0
-  Reta14: 0
-  Reta15: 0
-  Reta16: 0
-  Reta17: 0
-  Reta18: 0
-  Reta19: 0
-  Reta20: 0
-  Reta21: 1
-  Reta22: 0
-  Reta23: 0
-  Reta24: 0
-  Reta25: 0
 --- !u!1 &7631318132653742269
 GameObject:
   m_ObjectHideFlags: 0
@@ -4080,11 +4036,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53eb97f5aee32f4449f255c80dd57341, type: 3}
---- !u!4 &6347245001526358185 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4373946868537143552, guid: 53eb97f5aee32f4449f255c80dd57341, type: 3}
-  m_PrefabInstance: {fileID: 7252642801191256489}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1829685935675966583 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9062027061365966302, guid: 53eb97f5aee32f4449f255c80dd57341, type: 3}
@@ -4096,6 +4047,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608845b39abe5c48b8e8e5c23abe3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &6347245001526358185 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4373946868537143552, guid: 53eb97f5aee32f4449f255c80dd57341, type: 3}
+  m_PrefabInstance: {fileID: 7252642801191256489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7633826023486425458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5307,11 +5263,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96f611e7cc5b4c2418101fe09dd17c26, type: 3}
---- !u!4 &1652186979111620403 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7588331451171873389, guid: 96f611e7cc5b4c2418101fe09dd17c26, type: 3}
-  m_PrefabInstance: {fileID: 9197076175845813598}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &6590538113360399607 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2653991766331122089, guid: 96f611e7cc5b4c2418101fe09dd17c26, type: 3}
@@ -5323,6 +5274,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608845b39abe5c48b8e8e5c23abe3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1652186979111620403 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7588331451171873389, guid: 96f611e7cc5b4c2418101fe09dd17c26, type: 3}
+  m_PrefabInstance: {fileID: 9197076175845813598}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9213609654254799951
 PrefabInstance:
   m_ObjectHideFlags: 0

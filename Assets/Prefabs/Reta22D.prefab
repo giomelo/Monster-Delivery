@@ -339,7 +339,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5147355386566319802}
   - component: {fileID: 7920138490229228254}
-  - component: {fileID: 5579622372856113405}
   m_Layer: 0
   m_Name: Reta22D
   m_TagString: Untagged
@@ -402,55 +401,12 @@ MonoBehaviour:
   - {fileID: 7776040932136691664}
   - {fileID: 1254368541468449545}
   - {fileID: 9114986083125311313}
+  objects: []
   casas:
   - {fileID: 4180654920107022698}
   - {fileID: 7358495087861326270}
   - {fileID: 254464878706585847}
   - {fileID: 5304307874028541303}
---- !u!114 &5579622372856113405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5147355386566319801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5a6425bd6cff2241909422b4abe9b0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaPrefab: {fileID: 8257086075876773096, guid: 0bbc88a9602582f4fabe6147240229d4, type: 3}
-  relogioPrefab: {fileID: 5980810675238090225, guid: d2c30e58515088e409d74ff3a9def62f, type: 3}
-  imaPrefab: {fileID: 5144881724434804802, guid: f6697f3f9e842e544be1fa46f3c58f25, type: 3}
-  lootAmPrefab: {fileID: 1939019043772454557, guid: 2e2b4a7385b3c3741888d863c7bbd03c, type: 3}
-  lootVPrefab: {fileID: 7404721784981742547, guid: f928b063f9e7d0740ba49c3843d262fa, type: 3}
-  lootAzPrefab: {fileID: 6189804724802231068, guid: 2dd2847bcdba88140a9e3e429fa618c7, type: 3}
-  parent: {fileID: 5147355386566319802}
-  Reta1: 0
-  Reta2: 0
-  Reta3: 0
-  Reta4: 0
-  Reta5: 0
-  Reta6: 0
-  Reta7: 0
-  Reta8: 0
-  Reta9: 0
-  Reta10: 0
-  Reta11: 0
-  Reta12: 0
-  Reta13: 0
-  Reta14: 0
-  Reta15: 0
-  Reta16: 0
-  Reta17: 0
-  Reta18: 0
-  Reta19: 0
-  Reta20: 0
-  Reta21: 0
-  Reta22: 1
-  Reta23: 0
-  Reta24: 0
-  Reta25: 0
 --- !u!1 &5147355386605464320
 GameObject:
   m_ObjectHideFlags: 0
@@ -3755,6 +3711,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc2d01e32c4719646aa8e6683c0a011a, type: 3}
+--- !u!4 &8889019817592067574 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1831716946395685532, guid: dc2d01e32c4719646aa8e6683c0a011a, type: 3}
+  m_PrefabInstance: {fileID: 7077324033380972394}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5304307874028541303 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3146638857215582749, guid: dc2d01e32c4719646aa8e6683c0a011a, type: 3}
@@ -3766,11 +3727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608845b39abe5c48b8e8e5c23abe3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &8889019817592067574 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1831716946395685532, guid: dc2d01e32c4719646aa8e6683c0a011a, type: 3}
-  m_PrefabInstance: {fileID: 7077324033380972394}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7087812000927426258
 PrefabInstance:
   m_ObjectHideFlags: 0

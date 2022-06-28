@@ -401,7 +401,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4231444147328188367}
   - component: {fileID: 7595181426782481557}
-  - component: {fileID: 3651784817366972274}
   m_Layer: 0
   m_Name: Reta6F
   m_TagString: Untagged
@@ -464,53 +463,10 @@ MonoBehaviour:
   - {fileID: 8269525141596177433}
   - {fileID: 5598545604387777285}
   - {fileID: 3365740121504764535}
+  objects: []
   casas:
   - {fileID: 730889430356134342}
   - {fileID: 9166735793728947182}
---- !u!114 &3651784817366972274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4231444147328188368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5a6425bd6cff2241909422b4abe9b0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaPrefab: {fileID: 8257086075876773096, guid: 0bbc88a9602582f4fabe6147240229d4, type: 3}
-  relogioPrefab: {fileID: 5980810675238090225, guid: d2c30e58515088e409d74ff3a9def62f, type: 3}
-  imaPrefab: {fileID: 5144881724434804802, guid: f6697f3f9e842e544be1fa46f3c58f25, type: 3}
-  lootAmPrefab: {fileID: 1939019043772454557, guid: 2e2b4a7385b3c3741888d863c7bbd03c, type: 3}
-  lootVPrefab: {fileID: 7404721784981742547, guid: f928b063f9e7d0740ba49c3843d262fa, type: 3}
-  lootAzPrefab: {fileID: 6189804724802231068, guid: 2dd2847bcdba88140a9e3e429fa618c7, type: 3}
-  parent: {fileID: 4231444147328188367}
-  Reta1: 0
-  Reta2: 0
-  Reta3: 0
-  Reta4: 0
-  Reta5: 0
-  Reta6: 1
-  Reta7: 0
-  Reta8: 0
-  Reta9: 0
-  Reta10: 0
-  Reta11: 0
-  Reta12: 0
-  Reta13: 0
-  Reta14: 0
-  Reta15: 0
-  Reta16: 0
-  Reta17: 0
-  Reta18: 0
-  Reta19: 0
-  Reta20: 0
-  Reta21: 0
-  Reta22: 0
-  Reta23: 0
-  Reta24: 0
-  Reta25: 0
 --- !u!1 &5598545604387777285
 GameObject:
   m_ObjectHideFlags: 0
