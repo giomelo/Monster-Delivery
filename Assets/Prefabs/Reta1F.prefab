@@ -4610,6 +4610,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5996368615869384551, guid: 245b7fcf9dd36244b9be949f7c57fd8c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b2b9ac29f863784489b575bcfccd3408, type: 2}
+    - target: {fileID: 5996368615869384551, guid: 245b7fcf9dd36244b9be949f7c57fd8c, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b2b9ac29f863784489b575bcfccd3408, type: 2}
+    - target: {fileID: 5996368615869384551, guid: 245b7fcf9dd36244b9be949f7c57fd8c, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: b2b9ac29f863784489b575bcfccd3408, type: 2}
     - target: {fileID: 8234143536199478763, guid: 245b7fcf9dd36244b9be949f7c57fd8c, type: 3}
       propertyPath: m_Name
       value: Rua zona 1

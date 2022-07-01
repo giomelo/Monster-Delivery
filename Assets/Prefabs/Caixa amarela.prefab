@@ -58,6 +58,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paricle: {fileID: 5313913285209530461}
+--- !u!1 &2955528278621530864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1946984725351363612}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1946984725351363612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2955528278621530864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7588331451171873389}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4682580396522836861
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,6 +288,7 @@ Transform:
   - {fileID: 1153132282470254581}
   - {fileID: 5423077299422548031}
   - {fileID: 8367002369263290111}
+  - {fileID: 1946984725351363612}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -328,8 +359,6 @@ MonoBehaviour:
   mistura: 0
   contadorEncomendas: 0
   encomendaEntregue: 
-  valorAcrescentar: 2.5
-  valorDiminuir: 2.5
   particulas: {fileID: 4626362812814501036, guid: 1ce1e07ca215eab4795008355b6a01b5, type: 3}
   cartinha: {fileID: 5313913285209530461}
   joinhaCima: {fileID: 4682580396522836861}
@@ -374,7 +403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2368028736551970045, guid: bb1b092f60967e8499f89b02af38547a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8420984916282500898, guid: bb1b092f60967e8499f89b02af38547a, type: 3}
       propertyPath: m_RootOrder
